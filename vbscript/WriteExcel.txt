@@ -1,0 +1,10 @@
+strPath=" d:\qwer.xls"
+Set objExcel=CreateObject("Excel.Application")
+objExcel.DisplayAlerts=false'to override same file again
+objExcel.Workbooks.Add()
+objExcel.Cells(1,1).value="test"
+objExcel.Cells(1,2).value="test123"
+objExcel.ActiveWorkbook.SaveAs("d:\qwer.xls")
+objExcel.Application.Quit
+Set objExcel=nothing
+msgbox "done"

@@ -1,0 +1,9 @@
+strPath="c:\temp\qwer.txt"
+Set ofso=CreateObject("Scripting.FileSystemObject")
+If ofso.FileExists(strPath) Then 
+	set oreader=ofso.OpenTextFile(strPath,1) '1-reading,2-Writing,8-appending
+End If
+strAllText=oreader.ReadAll	'Read all the lines and store it one variable.
+msgbox strAllText
+oreader.Close
+Set ofso=nothing

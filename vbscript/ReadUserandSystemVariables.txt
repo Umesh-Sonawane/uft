@@ -1,0 +1,19 @@
+Dim objWSH
+Dim objUserVariables
+Dim objSystemVariables
+
+
+Set objWSH =  CreateObject("WScript.Shell")
+'This actually returns all the User Variables, and you either loop through all, or simply print what you want
+Set objUserVariables = objWSH.Environment("USER") 
+MsgBox(objUserVariables("TEMP"))
+
+
+'This returns all the System Variables, and you either loop through all, or simply print what you want
+Set objSystemVariables = objWSH.Environment("SYSTEM")
+MsgBox(objSystemVariables("PATH"))
+
+
+'Say you want to add a System or a User variable. Pretty simple, just use the object and assign the value!
+objSystemVariables("I_AM_SYSTEM_VARIABLE") = "System Variable Sir!"
+objUserVariables("I_AM_USER_VARIABLE") = "User Variable Sir!"

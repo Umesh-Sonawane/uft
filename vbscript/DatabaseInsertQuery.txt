@@ -1,0 +1,32 @@
+Dim connStr, objConn, getNames
+'''''''''''''''''''''''''''''''''''''
+'Define the driver and data source
+'Access 2007, 2010, 2013 ACCDB:
+'Provider=Microsoft.ACE.OLEDB.12.0
+'Access 2000, 2002-2003 MDB:
+'Provider=Microsoft.Jet.OLEDB.4.0
+''''''''''''''''''''''''''''''''''''''
+connStr = "Provider=Microsoft.ACE.OLEDB.12.0; Data Source=D:\Praful\Access2010DB\GarageMike.accdb"
+
+'Define object type
+Set objConn = CreateObject("ADODB.Connection")
+
+'Open Connection
+objConn.open connStr
+Set rs = createobject("ADODB.Recordset")
+'Define recordset and SQL query
+'Set rs = objConn.execute("SELECT * FROM Employee")
+
+strValues="'7','Jane1','Doe1','Plumber','555-555-4444',NULL,'33 Third Ave','Somewhere','ST','55555','USA','7/7/2007'"
+strInsertQuery="Insert into Employee([ID],[Last Name],[First Name],[Job Title],"&_
+"[Home Phone],[Mobile Phone],[Address],[City],[State/Province],[ZIP/Postal Code],"&_
+"[Country/Region],[Hire Date])  values ("& strValues&")"
+'msgbox strInsertQuery
+'rs.Open strInsertQuery, objConn,3
+Set rs = objConn.execute(strInsertQuery,recs)
+objConn.Close
+Set rs = Nothing
+Set objConn = Nothing
+msgbox recs & " row(s) affected"
+
+	

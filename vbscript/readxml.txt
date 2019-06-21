@@ -1,0 +1,35 @@
+Const XMLDataFile = "C:\TestData.xml"
+
+Set xmlDoc = CreateObject("Microsoft.XMLDOM")
+xmlDoc.Async = False
+xmlDoc.Load(XMLDataFile)
+Set cdnode = xmlDoc.SelectSingleNode("/bookstore/cd")
+msgbox cdnode.NodeValue
+Set nodes = xmlDoc.SelectNodes("/bookstore/book")
+MsgBox "Total books: " & nodes.Length
+' get all titles
+Set nodes = xmlDoc.SelectNodes("/bookstore/book/title/text()")
+
+' get their values
+For i = 0 To (nodes.Length - 1)
+    Title = nodes(i).NodeValue
+    MsgBox "Title #" & (i + 1) & ": " & Title
+Next
+Set node = xmlDoc.SelectSingleNode("/bookstore/book[0]/title/text()")
+MsgBox "Title of 1st book: " & node.NodeValue
+' get list of John Smith's books 
+Set nodes = xmlDoc.SelectNodes("/bookstore/book/title[../author = 'John Smith']/text()")
+
+' get their titles
+For i = 0 To (nodes.Length - 1)
+    Title = nodes(i).NodeValue
+    MsgBox "Title #" & (i + 1) & ": " & Title
+Next
+' get list of books published after 2003
+Set nodes = xmlDoc.SelectNodes("/bookstore/book/title[@published > 2003]/text()")
+
+' get their titles
+For i = 0 To (nodes.Length - 1)
+    Title = nodes(i).NodeValue
+    MsgBox "Title #" & (i + 1) & ": " & Title
+Next

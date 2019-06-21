@@ -1,0 +1,36 @@
+MsgBox(RegExpTest("is.", "IS1 is2 IS3 is4 is89")) 
+MsgBox(RegExpTest("^[\w-\.]{1,}\@([\da-zA-Z-]{1,}\.){1,}[\da-zA-Z-]{2,3}$", "welcome.test@gmail.com")) 
+Function RegExpTest(patrn, strng)
+   Dim regEx, Match, Matches   ' Create variable.
+   Set regEx = New RegExp   ' Create a regular expression.
+   regEx.Pattern = patrn   ' Set pattern.
+   regEx.IgnoreCase = True   ' Set case insensitivity.
+   regEx.Global = True   ' Set global applicability.
+   Set Matches = regEx.Execute(strng)   ' Execute search.
+   For Each Match in Matches   ' Iterate Matches collection.
+      RetStr = RetStr & "Match found at position "
+      RetStr = RetStr & Match.FirstIndex & ". Match Value is '"
+      RetStr = RetStr & Match.Value & "'." & vbCRLF      
+   Next
+   RegExpTest = RetStr
+End Function
+
+'Patterns
+'[xyz] Match any of the character class enclosed within the character set. 
+'[^xyz] Matches any of the character class that are NOT enclosed within the character set. 
+'. Matches any character class except \n 
+'\w Match any word character class. Equivalent to [a-zA-Z_0-9] 
+'\W Match any non-word character class. Equivalent to [^a-zA-Z_0-9] 
+'\d Match any digit class. Equivalent to [0-9]. 
+'\D Match any non-digit character class. Equivalent to [^0-9]. 
+'\s Match any space character class. Equivalent to [ \t\r\n\v\f] 
+'\S Match any space character class. Equivalent to [^\t\r\n\v\f] 
+'* Matches zero or more occurrences of the given regular Expression. Equivalent to {0,}. 
+'+ Matches one or more occurrences of the given regular Expression. Equivalent to {1,}. 
+'? Matches zero or one occurrences of the given regular Expression. Equivalent to {0,1}. 
+'{x} Matches exactly x number of occurrences of the given regular expression. 
+'{x,} Match atleast x or more occurrences of the given regular expression. 
+'{x,y} Matches x to y number of occurrences of the given regular expression.
+'"^\s*.." and "..\s*$" Represents that there can be any number of leading and trailing space characters in a single line. 
+'"((\$\s?)|(#\s?))?" Represents an optional $ or # sign followed by an optional space.
+'"^[\w-\.]{1,}\@([\da-zA-Z-]{1,}\.){1,}[\da-zA-Z-]{2,3}$"

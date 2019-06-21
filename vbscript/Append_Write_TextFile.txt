@@ -1,0 +1,16 @@
+5:42 PM 6/1/20195:43 PM 6/1/2019'********************Append/Write in a text file					
+strPath="c:\temp\qwer.txt"
+Set ofso=CreateObject("Scripting.FileSystemObject")
+If ofso.FileExists(strPath) Then 
+	set owriter=ofso.OpenTextFile(strPath,8) '1-reading,2-Writing,8-appending
+else
+	set owriter=ofso.CreateTextFile(strPath,false) 'overrideflag-false in this statement
+End If
+
+owriter.WriteBlankLines(3)
+owriter.WriteLine("Testing ofso")
+owriter.WriteLine("a" & vbtab & "b" & vbtab &"c")
+owriter.Write("test")
+MsgBox "Done"
+owriter.Close
+Set ofso=nothing

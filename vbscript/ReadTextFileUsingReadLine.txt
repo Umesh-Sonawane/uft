@@ -1,0 +1,13 @@
+'*************************************************************************************
+'					Read text file using ReadLine()					
+strPath="c:\temp\qwer.txt"
+Set ofso=CreateObject("Scripting.FileSystemObject")
+If ofso.FileExists(strPath) Then 
+	set oreader=ofso.OpenTextFile(strPath,1) '1-reading,2-Writing,8-appending
+End If
+While not(oreader.AtEndOfStream ) 'read file until end of file (EOF) is reached
+	strText=strText  & trim(oreader.ReadLine) & vbNewLine
+Wend
+MsgBox strText
+oreader.Close
+Set ofso=nothing

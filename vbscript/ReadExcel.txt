@@ -1,0 +1,13 @@
+Set objExcel=CreateObject("Excel.Application")
+objExcel.DisplayAlerts=false'to override same file again
+objExcel.Workbooks.Open "d:\qwer.xls"
+'Set objSheet1=objExcel.ActiveWorkbook.Worksheets(1)
+msgbox objExcel.Cells(1,1).value
+msgbox objExcel.Cells(1,2).value
+objExcel.Cells(3,1).value="Edit1234"
+objExcel.Cells(3,2).value="Edit123987"
+objExcel.ActiveWorkbook.Save
+'objExcel.ActiveWorkbook.SaveAs "C:\qwer.xls"
+objExcel.Application.Quit
+Set objExcel=nothing
+msgbox "done"

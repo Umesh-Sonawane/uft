@@ -1,0 +1,40 @@
+Dim connStr, objConn, getNames
+'''''''''''''''''''''''''''''''''''''
+'Define the driver and data source
+'Access 2007, 2010, 2013 ACCDB:
+'Provider=Microsoft.ACE.OLEDB.12.0
+'Access 2000, 2002-2003 MDB:
+'Provider=Microsoft.Jet.OLEDB.4.0
+''''''''''''''''''''''''''''''''''''''
+connStr = "Provider=Microsoft.ACE.OLEDB.12.0; Data Source=GarageMike.accdb"
+
+'Define object type
+Set objConn = CreateObject("ADODB.Connection")
+
+'Open Connection
+objConn.open connStr
+Set rs = createobject("ADODB.Recordset")
+'Define recordset and SQL query
+'Set rs = objConn.execute("SELECT * FROM Employee")
+rs.Open "select * from Employee ", objConn,3
+strData=strData & "Total No Of Records-->" & rs.recordcount & vbNewLine
+'While loop, loops through all available results
+DO WHILE NOT rs.EOF
+	strRowData=""
+	For Each field In rs.fields
+		strRowData=strRowData & "---" & rs.fields(field.Name)
+		
+	Next 
+	strData=strData & strRowData & vbNewLine
+'move to next result before looping again
+'this is important
+rs.MoveNext
+'continue loop
+Loop
+msgbox strData
+'Close connection and release objects
+objConn.Close
+Set rs = Nothing
+Set objConn = Nothing
+
+	

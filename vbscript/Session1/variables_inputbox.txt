@@ -1,0 +1,19 @@
+'Session-1
+Dim number1,number2
+number1=cdbl(InputBox("Enter a Number"))
+number2=cdbl(InputBox("Enter a Number"))
+msgbox "Addition is ->>" & number1+number2
+msgbox "Substraction is ->>" & number1-number2
+msgbox "Multiplication is ->>" & number1*number2
+msgbox "Division is ->>" & number1/number2
+msgbox "Floor Division is ->>" & number1\number2
+msgbox "Modulus is ->>" & number1 mod number2
+
+'cdbl -for double
+'cstr- for string
+'clng- for long
+'cbool- for bool
+
+'1\5=0
+'1/5=0.2
+'5 mod 2 =1

@@ -1,4 +1,5 @@
-'A for loop is a repetition control structure that allows a developer to efficiently write a loop that needs to execute a specific number of times.
+'A for loop is a repetition control structure that allows a developer to efficiently 
+'write a loop that needs to execute a specific number of times.
 
 'Syntax
 'The syntax of a for loop in VBScript is −
@@ -16,15 +17,15 @@
 'Next
 
 
-Here is the flow of control in a For Loop −
+'Here is the flow of control in a For Loop −
 
-1.The For step is executed first. This step allows you to initialize any loop control variables and increment the step counter variable.
+'1.The For step is executed first. This step allows you to initialize any loop control variables and increment the step counter variable.
 
-2.Secondly, the condition is evaluated. If it is true, the body of the loop is executed. If it is false, the body of the loop does not execute and flow of control jumps to the next statement just after the For Loop.
+'2.Secondly, the condition is evaluated. If it is true, the body of the loop is executed. If it is false, the body of the loop does not execute and flow of control jumps to the next statement just after the For Loop.
 
-3.After the body of the for loop executes, the flow of control jumps to the Next statement. This statement allows you to update any loop control variables. It is updated based on the step counter value.
+'3.After the body of the for loop executes, the flow of control jumps to the Next statement. This statement allows you to update any loop control variables. It is updated based on the step counter value.
 
-4.The condition is now evaluated again. If it is true, the loop executes and the process repeats itself (body of loop, then increment step, and then again condition). After the condition becomes false, the For Loop terminates.
+'4.The condition is now evaluated again. If it is true, the loop executes and the process repeats itself (body of loop, then increment step, and then again condition). After the condition becomes false, the For Loop terminates.
 
 Dim a : a = 10
 For i = 0 to a Step 2 'i is the counter variable and it is incremented by 2

@@ -39,7 +39,7 @@ Next
 'The syntax for Exit For Statement in VBScript is −
 
  'Exit For
- 
+ 'Example 1
  Dim a : a = 10
  For i = 0 to a Step 2 'i is the counter variable and it is incremented by 2
     msgbox("The value is i is : " & i)
@@ -50,6 +50,18 @@ Next
       msgbox(" Exited The value is i is : " & i)
       Exit For 'Exited when i = 4
    End If	
+Next
+'Example 2
+for i=0 to 5
+	msgbox(":Loop i----The value is i is : " & i) 
+	for j=5 to 0 step -1
+		
+		if i=2 and j=5 Then
+			Exit For
+		else
+			msgbox(":Loop j----The value is j is : " & j) 
+		End If
+	next
 Next
  
 ' A For Each loop is used when we want to execute a statement or a group of statements for each element in an array or collection.

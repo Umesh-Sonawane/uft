@@ -43,13 +43,14 @@ Next
  Dim a : a = 10
  For i = 0 to a Step 2 'i is the counter variable and it is incremented by 2
     msgbox("The value is i is : " & i)
-    msgbox("<br></br>")
+    
 
- If i = 4 Then
-    i = i*10  'This is executed only if i = 4
-    msgbox("The value is i is : " & i)
-    Exit For 'Exited when i = 4
- End If	
+   If i = 4 Then
+      i = i*10  'This is executed only if i = 4
+      msgbox(" Exited The value is i is : " & i)
+      Exit For 'Exited when i = 4
+   End If	
+Next
  
 ' A For Each loop is used when we want to execute a statement or a group of statements for each element in an array or collection.
 

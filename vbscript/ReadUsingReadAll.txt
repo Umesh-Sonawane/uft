@@ -1,4 +1,4 @@
-strPath="c:\temp\qwer.txt"
+'reference-https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/filesystemobject-objectstrPath="c:\temp\qwer.txt"
 Set ofso=CreateObject("Scripting.FileSystemObject")
 If ofso.FileExists(strPath) Then 
 	set oreader=ofso.OpenTextFile(strPath,1) '1-reading,2-Writing,8-appending

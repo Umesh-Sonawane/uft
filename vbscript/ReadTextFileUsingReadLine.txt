@@ -1,3 +1,4 @@
+'reference-https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/filesystemobject-object
 '*************************************************************************************
 '					Read text file using ReadLine()					
 strPath="c:\temp\qwer.txt"

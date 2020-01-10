@@ -1,0 +1,36 @@
+set objShell=CreateObject("Wscript.shell")
+objShell.Run "notepad.exe"
+objShell.AppActivate "notepad.exe",5
+Window("Notepad").WinEditor("Edit").Type "abcdefghijklmnopqrstuvwxyz"
+
+For Iterator = 1 To 1 Step 1
+	Window("Notepad").highlight
+	objShell.SendKeys "abcdefghijklmnopqrstuvwxyz"
+	Window("Notepad").highlight
+	objShell.SendKeys "~"
+Next
+
+Window("Notepad").highlight
+objShell.SendKeys "^A"
+Window("Notepad").highlight
+objShell.SendKeys("{DOWN 10}")
+Window("Notepad").highlight
+objShell.SendKeys "^A"
+'Window("Notepad").highlight
+objShell.SendKeys("{DOWN 1}")
+'Window("Notepad").highlight
+'objShell.SendKeys "%F"
+set objShell=nothing
+
+
+Dim myDeviceReplay
+Set myDeviceReplay = CreateObject("Mercury.DeviceReplay")
+Window("Notepad").highlight
+myDeviceReplay.PressKey 15
+Window("Notepad").highlight
+myDeviceReplay.MouseMove 50,20
+myDeviceReplay.MouseClick 50,50,RIGHT_MOUSE_BUTTON
+Window("Notepad").highlight
+myDeviceReplay.SendString "This is my string"
+myDeviceReplay.PressKey 28 'ASCII code for enter
+Set myDeviceReplay =nothing

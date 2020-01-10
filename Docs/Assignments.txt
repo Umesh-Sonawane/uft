@@ -1,0 +1,9 @@
+Write a program for finding out whether the given year is a leap year or not? 
+Write a program for finding out whether the given number is, Even number or Odd number?
+Read two numbers and display the sum?
+Read P,T,R values and Calculate the Simple Interest?
+Read Four digit number, calculate & display the sum of the number or display Error message if the number is not a four digit number?
+Read any Four-digit number and display the number in reverse order?Read 4 subjects marks; calculate the Total marks and grade?
+Display Odd numbers up to n?
+Display Even numbers up to n?
+display natural numbers up to n and write in a text file?

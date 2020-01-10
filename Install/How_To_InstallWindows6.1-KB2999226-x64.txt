@@ -1,0 +1,2 @@
+Go to Start, then run, type Services.msc and press Enter. Find Windows Update in the list, right click and choose Restart. 
+Then go and re-run the standalone update Windows6.1-KB2999226-x64.exe.

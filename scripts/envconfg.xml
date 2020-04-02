@@ -1,0 +1,6 @@
+<Environment>
+	<Variable>
+		<Name>env</Name>
+		<Value><![CDATA[SIT]]></Value>
+	</Variable>
+</Environment>

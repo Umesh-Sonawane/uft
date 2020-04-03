@@ -1,0 +1,3 @@
+﻿<Properties>
+  <WatchEntry0 value="Browser(&quot;opentitle:=Google&quot;,&quot;openurl:=https://www\.google\.com&quot;).Page(&quot;title:=.+Google Search&quot;).Exist" />
+</Properties>

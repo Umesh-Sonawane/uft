@@ -1,0 +1,3255 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2020-04-07 12:22:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>0216b06d2d1e447fa6c07d27259d5bc1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>userName.Set</Name>
+    <Description>"mercury"</Description>
+    <StartTime>2020-04-07 12:22:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[userName]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["mercury"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[userName]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>password.Set</Name>
+    <Description>"5e8c0e37c4a1b01a2d6a5f278e8f3cf622a648b9"</Description>
+    <StartTime>2020-04-07 12:22:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[password]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["5e8c0e37c4a1b01a2d6a5f278e8f3cf622a648b9"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Sign-In.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:22:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[Sign-In]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Image Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[Sign-In]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8d3a81aa270e4e6197a132b8f1bdae30</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Welcome: Mercury Tours</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:22:44</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>tripType.WaitProperty</Name>
+    <Description>"visible", True, True, 10000</Description>
+    <StartTime>2020-04-07 12:22:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[tripType]]></Name>
+          </Object>
+        </Path>
+        <Operation>WaitProperty</Operation>
+        <OperationData><![CDATA["visible", True, True, 10000]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[tripType]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>tripType.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-04-07 12:22:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[tripType]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[tripType]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Find a Flight: Mercury</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:22:51</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Welcome: Mercury Tours</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2020-04-07 12:22:44</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>2e3215131a8245198ad6711341a8887e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Login to mercury demo tours</Name>
+    <Description>Successfully logged in to Mercury Demo Tours</Description>
+    <StartTime>2020-04-07 12:22:51</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>1dc0a6ddc8c149199887f9487f23854f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>tripType.Select</Name>
+    <Description>"roundtrip"</Description>
+    <StartTime>2020-04-07 12:22:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[tripType]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["roundtrip"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[tripType]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>fromDay.Select</Name>
+    <Description>"7"</Description>
+    <StartTime>2020-04-07 12:22:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[fromDay]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["7"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[fromDay]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>toDay.Select</Name>
+    <Description>"9"</Description>
+    <StartTime>2020-04-07 12:22:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[toDay]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["9"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[toDay]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>toMonth.Select</Name>
+    <Description>"May"</Description>
+    <StartTime>2020-04-07 12:22:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[toMonth]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["May"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[toMonth]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>fromPort.Select</Name>
+    <Description>"Frankfurt"</Description>
+    <StartTime>2020-04-07 12:22:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[fromPort]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Frankfurt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[fromPort]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>toPort.Select</Name>
+    <Description>"New York"</Description>
+    <StartTime>2020-04-07 12:22:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[toPort]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["New York"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[toPort]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>servClass.Select</Name>
+    <Description>"Business"</Description>
+    <StartTime>2020-04-07 12:22:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[servClass]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Business"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[servClass]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>airline.Select</Name>
+    <Description>"Blue Skies Airlines"</Description>
+    <StartTime>2020-04-07 12:22:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[airline]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Blue Skies Airlines"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[airline]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>findFlights.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:22:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[findFlights]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Image Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8d3a81aa270e4e6197a132b8f1bdae30</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Find a Flight: Mercury</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:22:52</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>outFlight.Select</Name>
+    <Description>"Blue Skies Airlines$361$271$7:10"</Description>
+    <StartTime>2020-04-07 12:22:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Select a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[outFlight]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Blue Skies Airlines$361$271$7:10"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[outFlight]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>inFlight.Select</Name>
+    <Description>"Pangea Airlines$632$282$16:37"</Description>
+    <StartTime>2020-04-07 12:22:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Select a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[inFlight]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Pangea Airlines$632$282$16:37"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[inFlight]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>reserveFlights.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:22:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Select a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[reserveFlights]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Image Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8d3a81aa270e4e6197a132b8f1bdae30</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Select a Flight: Mercury</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:22:54</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Select a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>passFirst0.Set</Name>
+    <Description>"TEST"</Description>
+    <StartTime>2020-04-07 12:22:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[passFirst0]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["TEST"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[passFirst0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>passLast0.Set</Name>
+    <Description>"TEST2"</Description>
+    <StartTime>2020-04-07 12:22:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[passLast0]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["TEST2"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[passLast0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>creditnumber.Set</Name>
+    <Description>"123456789"</Description>
+    <StartTime>2020-04-07 12:22:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[creditnumber]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["123456789"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[creditnumber]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>pass.0.meal.Select</Name>
+    <Description>"Hindu"</Description>
+    <StartTime>2020-04-07 12:22:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[pass.0.meal]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Hindu"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[pass.0.meal]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>cc_exp_dt_mn.Select</Name>
+    <Description>"09"</Description>
+    <StartTime>2020-04-07 12:22:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[cc_exp_dt_mn]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["09"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[cc_exp_dt_mn]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>cc_exp_dt_yr.Select</Name>
+    <Description>"2010"</Description>
+    <StartTime>2020-04-07 12:22:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[cc_exp_dt_yr]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["2010"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[cc_exp_dt_yr]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Book a Flight: Mercury.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:22:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Book a Flight: Mercury Tours function changeStyle(obj, new_style) { obj.className = new_style } .menu { BACKGROUND-COLOR: white; BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: hidden } .visibleMenu { BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: visible } .menuItem { POSITION: relative; COLOR: menutext; TEXT-DECORATION: none } .menuItemOver { POSITION: relative; COLOR: highlighttext; TEXT-DECORATION: none } .menuItemOver A { POSITION: relative; COLOR: highlighttext; CURSOR: default; TEXT-DECORATION: none } .menuItem A { POSITION: relative; COLOR: menutext; CURSOR: default; TEXT-DECORATION: none } .more { FONT-FAMILY: WebDings; POSITION: relative; TEXT-ALIGN: right; Z-INDEX: 100 } .mouseOut {BACKGROUND: orange; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt;align="center"} .mouseOver {BACKGROUND: "#FFC455"; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt; align="center"} Home Flights Hotels Car Rentals Cruises Destinations Vacations Use Java Version SIGN-OFF REGISTER SUPPORT CONTACT Please review your travel itinerary and make your purchase. Summary Frankfurt to New York 4/7/2020 FLIGHT CLASS PRICE Blue Skies Airlines 361 Business 271 New York to Frankfurt 5/9/2020 FLIGHT CLASS PRICE Pangea Airlines 632 Business 282 Passengers: 1     Taxes: $45     Total Price (including taxes): $598 Passengers First Name: Last Name: Meal: No preference Bland Diabetic Hindu Kosher Low Calorie Low Cholesterol Low Sodium Muslim Vegetarian function CheckExpYear() { if (document.bookflight.cc_exp_dt_yr.value == "2003") alert('You have entered 2003 as expiration year!'); } //--&gt; Credit Card Card Type: Number: Expiration: American Express MasterCard Visa Discover Diners Club Carte Blanche None 01 02 03 04 05 06 07 08 09 10 11 12 None 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 First Name: Middle: Last: Billing Address Ticketless Travel  Address: City: State/Province:   Postal Code: Country: ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA Delivery Address Same as Billing Address  Address: City: State/Province:   Postal Code: Country: function CheckCountry() { if ((document.bookflight.delCountry.value != "215") &amp;&amp; (document.bookflight.delCountry.value != "79") &amp;&amp; (document.bookflight.delCountry.value != "266")) alert('You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.'); } //--&gt; ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA    © 2000, Mercury Interactive (v. 011003-1.01-058)]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HTML]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>89d3e34d80214fd98b765e8a3497b147</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>cc_frst_name.Set</Name>
+    <Description>"TEST"</Description>
+    <StartTime>2020-04-07 12:22:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[cc_frst_name]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["TEST"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[cc_frst_name]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>cc_mid_name.Set</Name>
+    <Description>"TEST2"</Description>
+    <StartTime>2020-04-07 12:22:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[cc_mid_name]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["TEST2"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[cc_mid_name]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>buyFlights.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:22:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[buyFlights]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Image Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8d3a81aa270e4e6197a132b8f1bdae30</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Book a Flight: Mercury</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:22:57</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Flight Confirmation #.WaitProperty</Name>
+    <Description>"visible", True, True, 10000</Description>
+    <StartTime>2020-04-07 12:23:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Flight Confirmation: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Flight Confirmation #]]></Name>
+          </Object>
+        </Path>
+        <Operation>WaitProperty</Operation>
+        <OperationData><![CDATA["visible", True, True, 10000]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Flight Confirmation #.+]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[FONT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>89d3e34d80214fd98b765e8a3497b147</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SIGN-OFF.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:23:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Flight Confirmation: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[SIGN-OFF]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[SIGN-OFF]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6b3991bf3b804915ad9df581e450bafe</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Flight Confirmation: Mercury</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:23:00</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Flight Confirmation: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Sign-on: Mercury Tours.Sync</Name>
+    <Description />
+    <StartTime>2020-04-07 12:23:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Sign-on: Mercury Tours]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Sign-on: Mercury Tours</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:23:03</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Sign-on: Mercury Tours]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Welcome: Mercury Tours.Close</Name>
+    <Description />
+    <StartTime>2020-04-07 12:23:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+      </TestObject>
+      <IconKey>2e3215131a8245198ad6711341a8887e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "chrome.exe",1</Name>
+    <StartTime>2020-04-07 12:23:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>0216b06d2d1e447fa6c07d27259d5bc1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>userName.Set</Name>
+    <Description>"mercury"</Description>
+    <StartTime>2020-04-07 12:23:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[userName]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["mercury"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[userName]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>password.Set</Name>
+    <Description>"5e8c0e37c4a1b01a2d6a5f278e8f3cf622a648b9"</Description>
+    <StartTime>2020-04-07 12:23:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[password]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["5e8c0e37c4a1b01a2d6a5f278e8f3cf622a648b9"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Sign-In.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:23:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[Sign-In]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Image Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[Sign-In]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8d3a81aa270e4e6197a132b8f1bdae30</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Welcome: Mercury Tours</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:23:10</StartTime>
+    <Duration>8</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>tripType.WaitProperty</Name>
+    <Description>"visible", True, True, 10000</Description>
+    <StartTime>2020-04-07 12:23:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[tripType]]></Name>
+          </Object>
+        </Path>
+        <Operation>WaitProperty</Operation>
+        <OperationData><![CDATA["visible", True, True, 10000]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[tripType]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>tripType.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2020-04-07 12:23:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[tripType]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[tripType]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Find a Flight: Mercury</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:23:18</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Welcome: Mercury Tours</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2020-04-07 12:22:52</StartTime>
+    <Duration>26</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>2e3215131a8245198ad6711341a8887e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Login to mercury demo tours</Name>
+    <Description>Successfully logged in to Mercury Demo Tours</Description>
+    <StartTime>2020-04-07 12:23:18</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>1dc0a6ddc8c149199887f9487f23854f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>tripType.Select</Name>
+    <Description>"roundtrip"</Description>
+    <StartTime>2020-04-07 12:23:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[tripType]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["roundtrip"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[tripType]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>fromDay.Select</Name>
+    <Description>"10"</Description>
+    <StartTime>2020-04-07 12:23:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[fromDay]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["10"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[fromDay]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>toDay.Select</Name>
+    <Description>"22"</Description>
+    <StartTime>2020-04-07 12:23:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[toDay]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["22"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[toDay]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>toMonth.Select</Name>
+    <Description>"May"</Description>
+    <StartTime>2020-04-07 12:23:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[toMonth]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["May"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[toMonth]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>fromPort.Select</Name>
+    <Description>"Frankfurt"</Description>
+    <StartTime>2020-04-07 12:23:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[fromPort]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Frankfurt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[fromPort]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>toPort.Select</Name>
+    <Description>"New York"</Description>
+    <StartTime>2020-04-07 12:23:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[toPort]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["New York"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[toPort]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>servClass.Select</Name>
+    <Description>"Business"</Description>
+    <StartTime>2020-04-07 12:23:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[servClass]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Business"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[servClass]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>airline.Select</Name>
+    <Description>"Blue Skies Airlines"</Description>
+    <StartTime>2020-04-07 12:23:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[airline]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Blue Skies Airlines"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[airline]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>findFlights.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:23:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[findFlights]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Image Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8d3a81aa270e4e6197a132b8f1bdae30</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Find a Flight: Mercury</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:23:18</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Find a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>outFlight.Select</Name>
+    <Description>"Blue Skies Airlines$361$271$7:10"</Description>
+    <StartTime>2020-04-07 12:23:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Select a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[outFlight]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Blue Skies Airlines$361$271$7:10"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[outFlight]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>inFlight.Select</Name>
+    <Description>"Pangea Airlines$632$282$16:37"</Description>
+    <StartTime>2020-04-07 12:23:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Select a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebRadioGroup</Type>
+            <Name><![CDATA[inFlight]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Pangea Airlines$632$282$16:37"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[inFlight]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a2fce659a904b868f6c63feba292fe6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>reserveFlights.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:23:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Select a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[reserveFlights]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Image Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8d3a81aa270e4e6197a132b8f1bdae30</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Select a Flight: Mercury</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:23:21</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Select a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>passFirst0.Set</Name>
+    <Description>"TEST"</Description>
+    <StartTime>2020-04-07 12:23:23</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[passFirst0]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["TEST"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[passFirst0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>passLast0.Set</Name>
+    <Description>"TEST2"</Description>
+    <StartTime>2020-04-07 12:23:23</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[passLast0]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["TEST2"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[passLast0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>creditnumber.Set</Name>
+    <Description>"123456789"</Description>
+    <StartTime>2020-04-07 12:23:23</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[creditnumber]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["123456789"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[creditnumber]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>pass.0.meal.Select</Name>
+    <Description>"Hindu"</Description>
+    <StartTime>2020-04-07 12:23:23</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[pass.0.meal]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Hindu"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[pass.0.meal]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>cc_exp_dt_mn.Select</Name>
+    <Description>"08"</Description>
+    <StartTime>2020-04-07 12:23:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[cc_exp_dt_mn]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["08"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[cc_exp_dt_mn]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>cc_exp_dt_yr.Select</Name>
+    <Description>"2010"</Description>
+    <StartTime>2020-04-07 12:23:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebList</Type>
+            <Name><![CDATA[cc_exp_dt_yr]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["2010"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[cc_exp_dt_yr]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[SELECT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>4649e4329b874b45be51cfadda9fa3ed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Book a Flight: Mercury"- Description mismatch</Name>
+    <Description>The object was not found using the test object description. Check the object's properties.</Description>
+    <StartTime>2020-04-07 12:23:44</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Book a Flight: Mercury Tours function changeStyle(obj, new_style) { obj.className = new_style } .menu { BACKGROUND-COLOR: white; BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: hidden } .visibleMenu { BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: visible } .menuItem { POSITION: relative; COLOR: menutext; TEXT-DECORATION: none } .menuItemOver { POSITION: relative; COLOR: highlighttext; TEXT-DECORATION: none } .menuItemOver A { POSITION: relative; COLOR: highlighttext; CURSOR: default; TEXT-DECORATION: none } .menuItem A { POSITION: relative; COLOR: menutext; CURSOR: default; TEXT-DECORATION: none } .more { FONT-FAMILY: WebDings; POSITION: relative; TEXT-ALIGN: right; Z-INDEX: 100 } .mouseOut {BACKGROUND: orange; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt;align="center"} .mouseOver {BACKGROUND: "#FFC455"; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt; align="center"} Home Flights Hotels Car Rentals Cruises Destinations Vacations Use Java Version SIGN-OFF REGISTER SUPPORT CONTACT Please review your travel itinerary and make your purchase. Summary Frankfurt to New York 4/7/2020 FLIGHT CLASS PRICE Blue Skies Airlines 361 Business 271 New York to Frankfurt 5/9/2020 FLIGHT CLASS PRICE Pangea Airlines 632 Business 282 Passengers: 1     Taxes: $45     Total Price (including taxes): $598 Passengers First Name: Last Name: Meal: No preference Bland Diabetic Hindu Kosher Low Calorie Low Cholesterol Low Sodium Muslim Vegetarian function CheckExpYear() { if (document.bookflight.cc_exp_dt_yr.value == "2003") alert('You have entered 2003 as expiration year!'); } //--&gt; Credit Card Card Type: Number: Expiration: American Express MasterCard Visa Discover Diners Club Carte Blanche None 01 02 03 04 05 06 07 08 09 10 11 12 None 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 First Name: Middle: Last: Billing Address Ticketless Travel  Address: City: State/Province:   Postal Code: Country: ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA Delivery Address Same as Billing Address  Address: City: State/Province:   Postal Code: Country: function CheckCountry() { if ((document.bookflight.delCountry.value != "215") &amp;&amp; (document.bookflight.delCountry.value != "79") &amp;&amp; (document.bookflight.delCountry.value != "266")) alert('You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.'); } //--&gt; ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA    © 2000, Mercury Interactive (v. 011003-1.01-058)]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HTML]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>89d3e34d80214fd98b765e8a3497b147</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Book a Flight: Mercury"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=Book a Flight: Mercury Tours function changeStyle(obj, new_style) { obj.className = new_style } .menu { BACKGROUND-COLOR: white; BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: hidden } .visibleMenu { BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: visible } .menuItem { POSITION: relative; COLOR: menutext; TEXT-DECORATION: none } .menuItemOver { POSITION: relative; COLOR: highlighttext; TEXT-DECORATION: none } .menuItemOver A { POSITION: relative; COLOR: highlighttext; CURSOR: default; TEXT-DECORATION: none } .menuItem A { POSITION: relative; COLOR: menutext; CURSOR: default; TEXT-DECORATION: none } .more { FONT-FAMILY: WebDings; POSITION: relative; TEXT-ALIGN: right; Z-INDEX: 100 } .mouseOut {BACKGROUND: orange; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt;align="center"} .mouseOver {BACKGROUND: "#FFC455"; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt; align="center"} Home Flights Hotels Car Rentals Cruises Destinations Vacations Use Java Version SIGN-OFF REGISTER SUPPORT CONTACT Please review your travel itinerary and make your purchase. Summary Frankfurt to New York 4/7/2020 FLIGHT CLASS PRICE Blue Skies Airlines 361 Business 271 New York to Frankfurt 5/9/2020 FLIGHT CLASS PRICE Pangea Airlines 632 Business 282 Passengers: 1     Taxes: $45     Total Price (including taxes): $598 Passengers First Name: Last Name: Meal: No preference Bland Diabetic Hindu Kosher Low Calorie Low Cholesterol Low Sodium Muslim Vegetarian function CheckExpYear() { if (document.bookflight.cc_exp_dt_yr.value == "2003") alert('You have entered 2003 as expiration year!'); } //--&amp;gt Credit Card Card Type: Number: Expiration: American Express MasterCard Visa Discover Diners Club Carte Blanche None 01 02 03 04 05 06 07 08 09 10 11 12 None 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 First Name: Middle: Last: Billing Address Ticketless Travel  Address: City: State/Province:   Postal Code: Country: ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA Delivery Address Same as Billing Address  Address: City: State/Province:   Postal Code: Country: function CheckCountry() { if ((document.bookflight.delCountry.value != "215") &amp;&amp; (document.bookflight.delCountry.value != "79") &amp;&amp; (document.bookflight.delCountry.value != "266")) alert('You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.'); } //--&amp;gt ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA    © 2000, Mercury Interactive (v. 011003-1.01-058)&lt;br&gt;html tag=HTML&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=WebElement&lt;br&gt;html tag=HTML&lt;br&gt;</Description>
+    <StartTime>2020-04-07 12:23:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=Book a Flight: Mercury Tours function changeStyle(obj, new_style) { obj.className = new_style } .menu { BACKGROUND-COLOR: white; BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: hidden } .visibleMenu { BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: visible } .menuItem { POSITION: relative; COLOR: menutext; TEXT-DECORATION: none } .menuItemOver { POSITION: relative; COLOR: highlighttext; TEXT-DECORATION: none } .menuItemOver A { POSITION: relative; COLOR: highlighttext; CURSOR: default; TEXT-DECORATION: none } .menuItem A { POSITION: relative; COLOR: menutext; CURSOR: default; TEXT-DECORATION: none } .more { FONT-FAMILY: WebDings; POSITION: relative; TEXT-ALIGN: right; Z-INDEX: 100 } .mouseOut {BACKGROUND: orange; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt;align="center"} .mouseOver {BACKGROUND: "#FFC455"; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt; align="center"} Home Flights Hotels Car Rentals Cruises Destinations Vacations Use Java Version SIGN-OFF REGISTER SUPPORT CONTACT Please review your travel itinerary and make your purchase. Summary Frankfurt to New York 4/7/2020 FLIGHT CLASS PRICE Blue Skies Airlines 361 Business 271 New York to Frankfurt 5/9/2020 FLIGHT CLASS PRICE Pangea Airlines 632 Business 282 Passengers: 1     Taxes: $45     Total Price (including taxes): $598 Passengers First Name: Last Name: Meal: No preference Bland Diabetic Hindu Kosher Low Calorie Low Cholesterol Low Sodium Muslim Vegetarian function CheckExpYear() { if (document.bookflight.cc_exp_dt_yr.value == "2003") alert('You have entered 2003 as expiration year!'); } //--&gt Credit Card Card Type: Number: Expiration: American Express MasterCard Visa Discover Diners Club Carte Blanche None 01 02 03 04 05 06 07 08 09 10 11 12 None 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 First Name: Middle: Last: Billing Address Ticketless Travel  Address: City: State/Province:   Postal Code: Country: ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA Delivery Address Same as Billing Address  Address: City: State/Province:   Postal Code: Country: function CheckCountry() { if ((document.bookflight.delCountry.value != "215") && (document.bookflight.delCountry.value != "79") && (document.bookflight.delCountry.value != "266")) alert('You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.'); } //--&gt ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA    © 2000, Mercury Interactive (v. 011003-1.01-058)<br>html tag=HTML<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1 objects found)&nbsp;</FONT></u><br>
+micclass=WebElement<br>html tag=HTML<br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Book a Flight: Mercury Tours function changeStyle(obj, new_style) { obj.className = new_style } .menu { BACKGROUND-COLOR: white; BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: hidden } .visibleMenu { BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: visible } .menuItem { POSITION: relative; COLOR: menutext; TEXT-DECORATION: none } .menuItemOver { POSITION: relative; COLOR: highlighttext; TEXT-DECORATION: none } .menuItemOver A { POSITION: relative; COLOR: highlighttext; CURSOR: default; TEXT-DECORATION: none } .menuItem A { POSITION: relative; COLOR: menutext; CURSOR: default; TEXT-DECORATION: none } .more { FONT-FAMILY: WebDings; POSITION: relative; TEXT-ALIGN: right; Z-INDEX: 100 } .mouseOut {BACKGROUND: orange; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt;align="center"} .mouseOver {BACKGROUND: "#FFC455"; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt; align="center"} Home Flights Hotels Car Rentals Cruises Destinations Vacations Use Java Version SIGN-OFF REGISTER SUPPORT CONTACT Please review your travel itinerary and make your purchase. Summary Frankfurt to New York 4/7/2020 FLIGHT CLASS PRICE Blue Skies Airlines 361 Business 271 New York to Frankfurt 5/9/2020 FLIGHT CLASS PRICE Pangea Airlines 632 Business 282 Passengers: 1     Taxes: $45     Total Price (including taxes): $598 Passengers First Name: Last Name: Meal: No preference Bland Diabetic Hindu Kosher Low Calorie Low Cholesterol Low Sodium Muslim Vegetarian function CheckExpYear() { if (document.bookflight.cc_exp_dt_yr.value == "2003") alert('You have entered 2003 as expiration year!'); } //--&gt; Credit Card Card Type: Number: Expiration: American Express MasterCard Visa Discover Diners Club Carte Blanche None 01 02 03 04 05 06 07 08 09 10 11 12 None 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 First Name: Middle: Last: Billing Address Ticketless Travel  Address: City: State/Province:   Postal Code: Country: ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA Delivery Address Same as Billing Address  Address: City: State/Province:   Postal Code: Country: function CheckCountry() { if ((document.bookflight.delCountry.value != "215") &amp;&amp; (document.bookflight.delCountry.value != "79") &amp;&amp; (document.bookflight.delCountry.value != "266")) alert('You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.'); } //--&gt; ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA    © 2000, Mercury Interactive (v. 011003-1.01-058)]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HTML]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>dc2e0189def5463f91ca281bf1d84aa7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Book a Flight: Mercury.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:23:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Book a Flight: Mercury Tours function changeStyle(obj, new_style) { obj.className = new_style } .menu { BACKGROUND-COLOR: white; BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: hidden } .visibleMenu { BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: visible } .menuItem { POSITION: relative; COLOR: menutext; TEXT-DECORATION: none } .menuItemOver { POSITION: relative; COLOR: highlighttext; TEXT-DECORATION: none } .menuItemOver A { POSITION: relative; COLOR: highlighttext; CURSOR: default; TEXT-DECORATION: none } .menuItem A { POSITION: relative; COLOR: menutext; CURSOR: default; TEXT-DECORATION: none } .more { FONT-FAMILY: WebDings; POSITION: relative; TEXT-ALIGN: right; Z-INDEX: 100 } .mouseOut {BACKGROUND: orange; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt;align="center"} .mouseOver {BACKGROUND: "#FFC455"; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt; align="center"} Home Flights Hotels Car Rentals Cruises Destinations Vacations Use Java Version SIGN-OFF REGISTER SUPPORT CONTACT Please review your travel itinerary and make your purchase. Summary Frankfurt to New York 4/7/2020 FLIGHT CLASS PRICE Blue Skies Airlines 361 Business 271 New York to Frankfurt 5/9/2020 FLIGHT CLASS PRICE Pangea Airlines 632 Business 282 Passengers: 1     Taxes: $45     Total Price (including taxes): $598 Passengers First Name: Last Name: Meal: No preference Bland Diabetic Hindu Kosher Low Calorie Low Cholesterol Low Sodium Muslim Vegetarian function CheckExpYear() { if (document.bookflight.cc_exp_dt_yr.value == "2003") alert('You have entered 2003 as expiration year!'); } //--&gt; Credit Card Card Type: Number: Expiration: American Express MasterCard Visa Discover Diners Club Carte Blanche None 01 02 03 04 05 06 07 08 09 10 11 12 None 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 First Name: Middle: Last: Billing Address Ticketless Travel  Address: City: State/Province:   Postal Code: Country: ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA Delivery Address Same as Billing Address  Address: City: State/Province:   Postal Code: Country: function CheckCountry() { if ((document.bookflight.delCountry.value != "215") &amp;&amp; (document.bookflight.delCountry.value != "79") &amp;&amp; (document.bookflight.delCountry.value != "266")) alert('You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.'); } //--&gt; ANTIGUA AND BARBUDA ALBANIA ALGERIA ANDORRA ASHMORE AND CARTIER ISLANDS AUSTRALIA AMERICAN SAMOA ARGENTINA AUSTRIA ANGUILLA BAHAMAS BAHRAIN BAKER ISLAND BANGLADESH BARBADOS BASSA DE INDIA BELGIUM BELIZE BENIN BERMUDA BHUTAN BOLIVIA BOSNIA AND HERZEGOVINA BOTSWANA BOUVET ISLAND BRAZIL BRITISH INDIAN OCEAN TERRITORY BRITISH VIRGIN ISLANDS BRUNEI BURMA BURUNDI CANADA CAPE VERDE CAYMAN ISLANDS CENTRAL AFRICAN REPUBLIC CHAD CHILE CHINA CHRISTMAS ISLAND CLIPPERTON ISLAND COCOS (KEELING) ISLANDS COLOMBIA COMOROS CONGO COOK ISLANDS CORAL SEA ISLANDS CROATIA CUBA CYPRUS CZECH REPUBLIC DENMARK DJIBOUTI DOMINICA DOMINICAN REPUBLIC ECUADOR EGYPT EL SALVADOR EQUATORIAL GUINEA ERITREA ETHIOPIA EUROPA ISLAND FAROE ISLANDS FIJI FINLAND FRANCE FRENCH GUIANA FRENCH POLYNESIA FRENCH SOUTHERN AND ANTARCTIC LANDS GABON GAZA STRIP GEORGIA GHANA GIBRALTAR GLORIOSO ISLANDS GREECE GREENLAND GRENADA GUADELOUPE GUAM GUATEMALA GUERNSEY GUINEA GUINEA-BISSAU GUYANA HAITI HEARD ISLAND AND MCDONALD ISLANDS HONDURAS HONG KONG HOWLAND ISLAND HUNGARY ICELAND INDIA INDONESIA IRELAND ISRAEL ITALY COTE D'IVOIRE JAMAICA JAN MAYEN JAPAN JARVIS ISLAND JERSEY JOHNSTON ATOLL JORDAN JUAN DE NOVA ISLAND CAMBODIA KENYA KINGMAN REEF KIRIBATI KUWAIT KYRGYZSTAN LAOS LATVIA LEBANON LESOTHO LIBERIA LIECHTENSTEIN LITHUANIA LUXEMBOURG MACAU MADAGASCAR MALAWI MALAYSIA MALDIVES MALI MALTA MAN, ISLE OF MARTINIQUE MAURITANIA MAURITIUS MAYOTTE MEXICO MIDWAY ISLANDS MOLDOVA MONACO MONGOLIA MONTENEGRO MONTSERRAT MOROCCO MOZAMBIQUE NAMIBIA NAURU NAVASSA ISLAND NEPAL NETHERLANDS NETHERLANDS ANTILLES NEW CALEDONIA NEW ZEALAND NICARAGUA NIGER NIGERIA NIUE NO MANS LAND NORFOLK ISLAND NORTHERN MARIANA ISLANDS NORWAY OMAN PALMYRA ATOLL PANAMA PAPUA NEW GUINEA PARACEL ISLANDS PARAGUAY PERU PHILIPPINES PITCAIRN ISLANDS POLAND PORTUGAL PUERTO RICO QATAR REUNION ROMANIA RWANDA ST. KITTS AND NEVIS ST. HELENA ST. LUCIA ST. PIERRE AND MIQUELON ST. VINCENT AND THE GRENADINES SAN MARINO SAO TOME AND PRINCIPE SENEGAL SERBIA SEYCHELLES SIERRA LEONE SINGAPORE SLOVAKIA SLOVENIA SOLOMON ISLANDS SOUTH AFRICA 189 SPAIN SPRATLY ISLANDS SRI LANKA SUDAN SURINAME SVALBARD SWAZILAND SWEDEN SWITZERLAND SYRIA THAILAND TOGO TOKELAU TONGA TRINIDAD AND TOBAGO TROMELIN ISLAND TUNISIA TURKEY TURKS AND CAICOS ISLANDS TUVALU UGANDA SOVIET UNION UKRAINE UNITED ARAB EMIRATES UNITED KINGDOM UNITED STATES BURKINA FASO URUGUAY UZBEKISTAN VANUATU VATICAN CITY VENEZUELA VIRGIN ISLANDS WAKE ISLAND WALLIS AND FUTUNA WEST BANK WESTERN SAHARA WESTERN SAMOA ZAIRE ZAMBIA ZIMBABWE TAIWAN YUGOSLAVIA UNDERSEA FEATURES ANTARCTICA BULGARIA ARUBA FALKLAND ISLANDS OCEANS COSTA RICA YEMEN BELARUS GERMANY ARMENIA KAZAKHSTAN TAJIKISTAN TURKMENISTAN ESTONIA AFGHANISTAN AZERBAIJAN PAKISTAN ANGOLA VIETNAM CAMEROON IRAN IRAQ RUSSIA SAUDI ARABIA LIBYA KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA, REPUBLIC OF TANZANIA, UNITED REPUBLIC OF GAMBIA, THE SOMALIA MACEDONIA, FORMER REPUBLIC OF MARSHALL ISLANDS MICRONESIA    © 2000, Mercury Interactive (v. 011003-1.01-058)]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HTML]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>89d3e34d80214fd98b765e8a3497b147</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>cc_frst_name.Set</Name>
+    <Description>"TEST"</Description>
+    <StartTime>2020-04-07 12:23:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[cc_frst_name]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["TEST"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[cc_frst_name]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>cc_mid_name.Set</Name>
+    <Description>"TEST2"</Description>
+    <StartTime>2020-04-07 12:23:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[cc_mid_name]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["TEST2"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[cc_mid_name]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6e3068e704b24f95bc9e0e573db0552c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>buyFlights.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:23:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[buyFlights]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Image Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[alt]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8d3a81aa270e4e6197a132b8f1bdae30</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Book a Flight: Mercury</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:23:23</StartTime>
+    <Duration>24</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Book a Flight: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Flight Confirmation #.WaitProperty</Name>
+    <Description>"visible", True, True, 10000</Description>
+    <StartTime>2020-04-07 12:23:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Flight Confirmation: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Flight Confirmation #]]></Name>
+          </Object>
+        </Path>
+        <Operation>WaitProperty</Operation>
+        <OperationData><![CDATA["visible", True, True, 10000]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Flight Confirmation #.+]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[FONT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>89d3e34d80214fd98b765e8a3497b147</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SIGN-OFF.Click</Name>
+    <Description />
+    <StartTime>2020-04-07 12:23:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Flight Confirmation: Mercury]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[SIGN-OFF]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[SIGN-OFF]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6b3991bf3b804915ad9df581e450bafe</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Flight Confirmation: Mercury</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:23:47</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Flight Confirmation: Mercury]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Sign-on: Mercury Tours.Sync</Name>
+    <Description />
+    <StartTime>2020-04-07 12:23:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Sign-on: Mercury Tours]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Sign-on: Mercury Tours</Name>
+    <Description>Page</Description>
+    <StartTime>2020-04-07 12:23:47</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Sign-on: Mercury Tours]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e6e4deed0ffc414193c19960594c0b97</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Welcome: Mercury Tours.Close</Name>
+    <Description />
+    <StartTime>2020-04-07 12:23:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+      </TestObject>
+      <IconKey>2e3215131a8245198ad6711341a8887e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Welcome: Mercury Tours</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2020-04-07 12:23:18</StartTime>
+    <Duration>32</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\a107941700\Desktop\uft\scripts\OR\MercuryDemoToursFinal.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Welcome: Mercury Tours]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>2e3215131a8245198ad6711341a8887e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2020-04-07 12:22:37</StartTime>
+    <Duration>73</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>f3fb018ad7954a38842fd909023c98f7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>DataDrivenTesting</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>14.50</ToolVersion>
+    <ToolVersionStringLiteral>14.50</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-04-07 12:22:36</StartTime>
+    <Duration>74</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>210431be235f4b4dbfafb13f9cb3d828</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (India)</Locale>
+      <User>EMEA2\A107941700</User>
+      <CpuInfo>Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>7838</TotalMemory>
+      <HostName>apac.cds.t-internal.com\BAPAD150</HostName>
+      <OSInfo>Windows 7 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res12</ResultName>
+    <RunStartTime>2020-04-07 12:22:36</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.50</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>14.50</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
